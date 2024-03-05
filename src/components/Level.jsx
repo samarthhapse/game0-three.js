@@ -43,7 +43,7 @@ const BlockStart = ({ positionProp = [0, 0, 0] }) => {
           position={[0.8, 0.8, 0]}
           rotation-y={-0.5}
         >
-          Welcome Modiji
+          Welcome
           <meshBasicMaterial toneMapped={false} />
         </Text>
       </Float>
@@ -84,7 +84,7 @@ const BlockEnd = ({ positionProp = [0, 0, 0] }) => {
           position={[1.3, 0.8, 1]}
           rotation-y={-0.7}
         >
-         Congrats Modiji
+         Congratulations ! You won !
           <meshBasicMaterial toneMapped={false} />
         </Text>
       </Float>
@@ -153,7 +153,7 @@ const BlockObstacle = ({ positionProp = [0, 0, 0], obstaclePosition }) => {
           position={[1.3, 0.8, 0]}
           rotation-y={-0.5}
         >
-          Pappu
+          Obstacle
           <meshBasicMaterial toneMapped={false} />
         </Text>
       </Float>
