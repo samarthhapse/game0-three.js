@@ -55,7 +55,7 @@ const Interface = () => {
             <div className="win">You are PM now</div>
             <div className="restart">
               <button onClick={restart} className="restartButton">
-                Click here to win Again 😅 !
+                Play Again !
               </button>
             </div>
           </>
