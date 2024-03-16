@@ -84,7 +84,7 @@ const BlockEnd = ({ positionProp = [0, 0, 0] }) => {
           position={[1.3, 0.8, 1]}
           rotation-y={-0.7}
         >
-         Congratulations ! You won !
+         Congrats !
           <meshBasicMaterial toneMapped={false} />
         </Text>
       </Float>
