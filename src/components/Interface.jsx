@@ -52,7 +52,7 @@ const Interface = () => {
 
         {phase === "ended" && (
           <>
-            <div className="win">You are PM now</div>
+            <div className="win">You won !</div>
             <div className="restart">
               <button onClick={restart} className="restartButton">
                 Play Again !
